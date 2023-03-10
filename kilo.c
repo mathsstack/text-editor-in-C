@@ -306,7 +306,7 @@ void editorProcessKeyPress() {
 			break;
 
 		case END_KEY:
-			E.cx = screencols - 1;
+			E.cx = E.screencols - 1;
 			break;
 
 		case PAGE_UP:
